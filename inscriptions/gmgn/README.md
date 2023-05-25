@@ -12,7 +12,7 @@ Here are some awk commands to analyze this file:
     awk '/bl.+asm OP_PUSHBYTES_32 [a-f0-9]{64} OP_CHECKSIG OP_0 OP_IF OP_PUSHBYTES_3 6f7264 OP_PUSHBYTES_1 01/{print $2}' filename.log  | sort | uniq -c
     #number of Inscriptions per block with PubKey 117f692257b2331233b5705ce9c682be8719ff1b2b64cbca290bd6faeb54423e and OP_DROP
     awk '/bl.+asm OP_PUSHBYTES_32 117f692257b2331233b5705ce9c682be8719ff1b2b64cbca290bd6faeb54423e OP_CHECKSIG OP_PUSHBYTES_6 [a-f0-9]{12} OP_DROP OP_0 OP_IF OP_PUSHBYTES_3 6f7264 OP_PUSHBYTES_1 01/{print $2}' filename.log | sort | uniq -c
-    #number of non-standard Inscriptions per block OP_DROP and any PubKey (not produced by the standard ord wallet
+    #number of non-standard (with OP_PUSHBYTES_6 <6 bytes> OP_DROP) Inscriptions per block with any PubKey (not produced by the standard ord wallet
     awk '/bl.+asm OP_PUSHBYTES_32 [a-f0-9]{64} OP_CHECKSIG OP_PUSHBYTES_6 [a-f0-9]{12} OP_DROP OP_0 OP_IF OP_PUSHBYTES_3 6f7264 OP_PUSHBYTES_1 01/{print $2}' filename.log | sort | uniq -c
 
 
