@@ -4,7 +4,7 @@ The file format is:
 
 `bl <block number> cum_spam_fee <cumulative transaction fee for inscriptions containing PubKey 117f692257b2331233b5705ce9c682be8719ff1b2b64cbca290bd6faeb54423e> tx "<txid>" inp <input number> asm <tapscript>`.
 
-The tapscripts can by check for example at [scriptpath.info](https://scriptpath.info/tx/142614adfb5855703f76a7de1aa7598f1154fc905f66d5b238ef2ced88e7bdec).
+The tapscripts can be checked for example at [scriptpath.info](https://scriptpath.info/tx/142614adfb5855703f76a7de1aa7598f1154fc905f66d5b238ef2ced88e7bdec).
 
 Here are some awk commands to analyze this file:
 
