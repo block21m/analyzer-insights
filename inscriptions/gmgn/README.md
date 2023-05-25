@@ -6,7 +6,7 @@ The file format is:
 
 The tapscripts can be checked for example at [scriptpath.info](https://scriptpath.info/tx/142614adfb5855703f76a7de1aa7598f1154fc905f66d5b238ef2ced88e7bdec).
 
-Here are some awk commands to analyze this file:
+Here are some awk commands to analyze this file (they take abut 6 min on a server with mechanicas HDDs):
 
     #number of "normal" (ord-wallet produced) Inscriptions per block
     awk '/bl.+asm OP_PUSHBYTES_32 [a-f0-9]{64} OP_CHECKSIG OP_0 OP_IF OP_PUSHBYTES_3 6f7264 OP_PUSHBYTES_1 01/{print $2}' filename.log  | sort | uniq -c
