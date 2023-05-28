@@ -9,6 +9,8 @@ The tapscripts from the file can be checked for example at [scriptpath.info](htt
 The file `tapscript-779832-791373-fees.log` can be processed with the [`stats.awk`](https://github.com/block21m/analyzer-insights/blob/main/inscriptions/gmgn/stats.awk) from this repository using `awk -f stats.awk tapscript-779832-791373-fees.log > blk_stats-779832-791373.log`. 
 The overall stats will be in the end of `blk_stats-779832-791373.log`. The CSV part of `blk_stats-779832-791373.log` can be visualized in the [`blk_stats-779832-791373.xlsx `](https://github.com/block21m/analyzer-insights/blob/main/inscriptions/gmgn/blk_stats-779832-791373.xlsx).
 
+The discussion of the data is at https://block21m.substack.com/p/most-bitcoin-inscriptions-belong-d6d
+
 
 
 
