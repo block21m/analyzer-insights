@@ -1,4 +1,4 @@
-This (GDrive download link)[] (??GB) contains a gzipped file `tapscript-779832-791373-fees.log.gz` with all tapscripts for all (and only) script-path P2TR inputs for the confirmed transactions in the block range `779832` to `791373`.
+This (GDrive download link)[] (9.3G) contains a gzipped file `tapscript-779832-791373-fees.log.gz` with all tapscripts for all (and only) script-path P2TR inputs for the confirmed transactions in the block range `779832` to `791373`.
 
 The file format is:
 
