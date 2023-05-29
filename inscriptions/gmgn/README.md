@@ -1,4 +1,4 @@
-This [GDrive download link](https://drive.google.com/file/d/1NPEvWCcGkC1jOblBIVUAIMBkHqsFq_6r/view?usp=drivesdk) (9.3G) contains a gzipped file `tapscript-779832-791373-f.log.gz` with all tapscripts for all (and only) script-path P2TR inputs for the confirmed transactions in the block range 779832 to 791373.
+This [GDrive download link](https://drive.google.com/file/d/10jmxc1jS3kLOt-M6X7LLfAQ3wcTHlNn6/view?usp=share_link) (9.3G) contains a gzipped file `tapscript-779832-791373-f.log.gz` with all tapscripts for all (and only) script-path P2TR inputs for the confirmed transactions in the block range 779832 to 791373.
 
 The file format is:
 
